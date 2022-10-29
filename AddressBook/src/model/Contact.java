@@ -34,6 +34,9 @@ public class Contact {
 	public Contact(String name) {
 		this.name = name;
 	}
+	public Contact(String phoneNum, boolean isPhone) {
+		this.phoneNum = phoneNum;
+	}
 	
 	// Getters and Setters
 	public int getId() {
